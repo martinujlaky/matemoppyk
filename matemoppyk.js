@@ -191,34 +191,34 @@ function checkKey(e) {
 
     e = e || window.event;
 
-    if (e.keyCode == '49') {    
+    if (e.keyCode == '49' || e.keyCode == '97') {    
         total=total+"1";
     }
-    else if (e.keyCode == '50') { 
+    else if (e.keyCode == '50' || e.keyCode == '98') { 
         total=total+"2";
     }
-    else if (e.keyCode == '51') {  
+    else if (e.keyCode == '51' || e.keyCode == '99') {  
         total=total+"3";
     }
-    else if (e.keyCode == '52') {  
+    else if (e.keyCode == '52' || e.keyCode == '100') {  
         total=total+"4";
     }
-    else if (e.keyCode == '53') {  
+    else if (e.keyCode == '53' || e.keyCode == '101') {  
         total=total+"5";
     }
-    else if (e.keyCode == '54') {  
+    else if (e.keyCode == '54' || e.keyCode == '102') {  
         total=total+"6";
     }
-    else if (e.keyCode == '55') {  
+    else if (e.keyCode == '55' || e.keyCode == '103') {  
         total=total+"7";
     }
-    else if (e.keyCode == '56') {  
+    else if (e.keyCode == '56' || e.keyCode == '104') {  
         total=total+"8";
     }
-    else if (e.keyCode == '57') {  
+    else if (e.keyCode == '57' || e.keyCode == '105') {  
         total=total+"9";
     }
-    else if (e.keyCode == '48') {  
+    else if (e.keyCode == '48' || e.keyCode == '96') {  
         total=total+"0";
     }
     else if (e.keyCode == '13') {  // enter  
